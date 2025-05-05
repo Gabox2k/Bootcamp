@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-[#daf8e3] via-[#97ebdb] to-[#00c2c7] flex flex-col items-center justify-center p-4">
+    <main class="bg-[#0086ad] bg-opacity-80 backdrop-blur-md p-8 rounded-3xl shadow-2xl w-full max-w-md text-white">
+        <h1 class="text-4xl font-extrabold text-center mb-6 animate-pulse">✨ About Me ✨</h1>
+
+        <form class="space-y-4">
+            <div>
+                <label class="block font-bold mb-1" for="nombre">Nombre</label>
+                <input class="w-full p-2 border border-[#00c2c7] rounded bg-[#005582] placeholder-[#97ebdb] focus:outline-none focus:ring-2 focus:ring-[#daf8e3]" type="text" id="nombre" name="nombre" placeholder="Tu nombre aquí" required>
+            </div>
+
+            <div>
+                <label class="block font-bold mb-1" for="lifestyle">Lifestyle</label>
+                <input class="w-full p-2 border border-[#00c2c7] rounded bg-[#005582] placeholder-[#97ebdb] focus:outline-none focus:ring-2 focus:ring-[#daf8e3]" type="text" id="lifestyle" name="lifestyle" placeholder="Aventurero, soñador, curioso..." required>
+            </div>
+
+            <div>
+                <label class="block font-bold mb-1" for="sobrevos">Sobre mí</label>
+                <textarea class="w-full p-2 border border-[#00c2c7] rounded bg-[#005582] placeholder-[#97ebdb] focus:outline-none focus:ring-2 focus:ring-[#daf8e3]" id="sobrevos" name="sobrevos" placeholder="Contame algo único sobre vos" rows="3"></textarea>
+            </div>
+
+            <div>
+                <label class="block font-bold mb-1" for="emojis">Emojis que me representan</label>
+                <input class="w-full p-2 border border-[#00c2c7] rounded bg-[#005582] placeholder-[#97ebdb] focus:outline-none focus:ring-2 focus:ring-[#daf8e3]" type="text" id="emojis" name="emojis" placeholder="🌊🐚🐠🪸" required>
+            </div>
+
+            <div>
+                <label class="block font-bold mb-1" for="musica">Música favorita</label>
+                <input class="w-full p-2 border border-[#00c2c7] rounded bg-[#005582] placeholder-[#97ebdb] focus:outline-none focus:ring-2 focus:ring-[#daf8e3]" type="text" id="musica" name="musica" placeholder="Rock, electrónica, jazz, lo-fi..." required>
+            </div>
+
+            <button type="submit"
+                    class="w-full bg-gradient-to-r from-[#97ebdb] via-[#00c2c7] to-[#0086ad] text-[#005582] font-bold py-2 rounded-lg shadow-lg hover:scale-105 transition">
+                Crear mi perfil 🌊
+            </button>
+        </form>
+    </main>
+
+    <!-- GIF actualizado al final -->
+    <div class="mt-8">
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHZ6MWZ3ZXkyc2p2bHRiencxOGxwMmNoZW10ejRwdG1jZTl1MWY4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlHFRbmaZtBRhXG/giphy.gif" 
+             alt="Underwater animation" 
+             class="w-64 h-auto rounded-2xl shadow-lg">
+    </div>
+</body>
+</html>
